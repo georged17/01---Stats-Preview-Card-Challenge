@@ -47,6 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
+- Figma
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -54,9 +55,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I've been learning to use Figma for a project at school. So I thought it would be useful to recreate my design in Figma first, mostly to learn some of the properties my project is going to have, such as typography, colors, sizes (as would happen in a real world project, where i had to copy a design from a Jpeg). 
 
-To see how you can add code snippets, see below:
+Another reason for this is to grasp a better understanding of what kind of HTML elements I would need.
+
+I know this is a simple project, but working on it this way might prove useful in the future.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
