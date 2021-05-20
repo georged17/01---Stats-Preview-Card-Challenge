@@ -10,7 +10,7 @@ main{
 }
 
 .Card {
-    width: 70vw;
+    width: 90%;
     margin: auto;
     background-color: #1C1938;
     border-radius: 9px;
@@ -38,6 +38,10 @@ main{
 }
 
 .Credits {
+    position: sticky;
+    top: 100%;
+    margin: auto;
+    width: 50vw;
     text-align: center;
     color: #fff;
     }
