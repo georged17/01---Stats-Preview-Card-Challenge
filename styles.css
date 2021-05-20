@@ -1,0 +1,46 @@
+body{
+    font-size: 15px;
+}
+main{
+    background-color: #0A0C1B;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    /* Ask Viorel what would be his preffered method of centering the card within the container */
+}
+
+.Card {
+    width: 70vw;
+    margin: auto;
+    background-color: #1C1938;
+    border-radius: 9px;
+}
+
+.Poza{
+    max-width: 100%;
+    
+}
+
+.Titlu{
+
+}
+
+.Descriere{
+
+}
+
+.Stats{
+
+}
+
+.Item{
+
+}
+
+.Credits {
+    text-align: center;
+    color: #fff;
+    }
+
+    .Credits a {
+      color: hsl(228, 45%, 44%);
