@@ -26,17 +26,6 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -55,11 +44,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I've been learning to use Figma for a project at school. So I thought it would be useful to recreate my design in Figma first, mostly to learn some of the properties my project is going to have, such as typography, colors, sizes (as would happen in a real world project, where i had to copy a design from a Jpeg). 
+I'm doing this project to familiarize myself with Figma, since I had to use it for a school project.
 
 Another reason for this is to grasp a better understanding of what kind of HTML elements I would need.
 
-I know this is a simple project, but working on it this way might prove useful in the future.
+This is proving to be a good opportunity to further my learnings on responsive design.
+
+First:responsive images!
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -69,15 +60,6 @@ I know this is a simple project, but working on it this way might prove useful i
   color: papayawhip;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 

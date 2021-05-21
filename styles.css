@@ -5,7 +5,8 @@ main{
     background-color: #0A0C1B;
     min-width: 100vw;
     min-height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
     /* Ask Viorel what would be his preffered method of centering the card within the container */
 }
 
@@ -17,8 +18,12 @@ main{
     border-radius: 9px;
 }
 
-.Poza{
+.ContainerPoza{
     max-width: 100%;  
+}
+
+.Poza{
+    
 }
 
 .Titlu{
