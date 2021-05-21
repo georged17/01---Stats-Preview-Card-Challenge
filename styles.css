@@ -10,15 +10,15 @@ main{
 }
 
 .Card {
-    width: 90%;
+    box-sizing: border-box;
+    width: 90vw;
     margin: auto;
     background-color: #1C1938;
     border-radius: 9px;
 }
 
 .Poza{
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
 
 .Titlu{
@@ -38,13 +38,15 @@ main{
 }
 
 .Credits {
-    position: sticky;
-    top: 100%;
-    margin: auto;
-    width: 50vw;
+    width: 100vw;
     text-align: center;
     color: #fff;
     }
-
-    .Credits a {
+     .Credits p{
+            width: 50%;
+            margin: auto;
+     }
+    
+     .Credits a {
       color: hsl(228, 45%, 44%);
+     }
