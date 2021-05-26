@@ -46,27 +46,52 @@ main{
 
 .Descriere{
     margin: auto;
-    width: 70vw;
+    width: 63vw;
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
 
 }
 
-   .Stats{
+.Stats{
      color:hsl(0, 0%, 100%);
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     flex-wrap:wrap;
+    text-align: center;
 }
 
-.Item{
 
-}
+   .Stat-Titlu{
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 1.6em;   
+      margin: 1em 0em 1em 0em;
+      color: hsl(0, 0%, 100%);
+    }
+
+    .Stat-Continut{
+        display: block;
+        margin: 1em;
+       font-family: 'Lexend Deca', sans-serif; 
+       text-transform: uppercase;
+       font-weight: 400;
+       font-size: 0.5em;
+       letter-spacing: 0.1em;
+       color: hsla(0, 0%, 100%, 0.6);     
+    }   
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Credits {
     width: 100vw;
