@@ -13,6 +13,7 @@ main{
 
 .Card {
     box-sizing: border-box;
+    position: relative;
     width: 90vw;
     margin: auto;
     background-color: #1C1938;
@@ -23,9 +24,8 @@ main{
 
 .Poza{
     width: 100%;
-    height: auto;
-    
 }
+
 
 .Titlu{
     margin: auto;
@@ -80,16 +80,6 @@ main{
        letter-spacing: 0.1em;
        color: hsla(0, 0%, 100%, 0.6);     
     }   
-
-
-
-
-
-
-
-
-
-
 
 
 
