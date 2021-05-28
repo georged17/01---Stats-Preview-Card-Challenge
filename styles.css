@@ -21,11 +21,21 @@ main{
     overflow: hidden;
 }
 
-
-.Poza{
+.Header{
     width: 100%;
+    height: 20rem;
+    background-image: url(./image-header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
+.Overlay{
+    width: 100%;
+    height: 20rem;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.4;
+}
 
 .Titlu{
     margin: auto;
