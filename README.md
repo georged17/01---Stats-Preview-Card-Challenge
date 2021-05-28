@@ -36,51 +36,45 @@ Users should be able to:
 
 ### Built with
 
-- Figma
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media queries
 
 
 ### What I learned
 
-I'm doing this project to familiarize myself with Figma, since I had to use it for a school project.
+I started this project after I learned to work with Figma, and thought it would be a good idea to recreate this design. I did that relatively fast, one thing led to another, and I started coding it as well!
 
-Another reason for this is to grasp a better understanding of what kind of HTML elements I would need.
+I think I did a pretty good job. There are two things I'm not sure of though. 
 
-This is proving to be a good opportunity to further my learnings on responsive design.
+1) If I made the images responsive the right way
+2) Did I use media queries the right way semantically speaking?
+3) Why won't the card stop growing in size after the last media query.
 
-First:responsive images!
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.Mobile-Image{
+    width: 100%;
+    height: 20rem;
+    background-image: url(./image-header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Mobile-Overlay{
+    width: 100%;
+    height: 20rem;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.4;
 }
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@georged17](https://www.frontendmentor.io/profile/georged17)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 

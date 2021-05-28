@@ -15,7 +15,6 @@ main{
     }
 }
 
-
 .Card {
     box-sizing: border-box;
     position: relative;
@@ -136,6 +135,7 @@ main{
 .Stats{
      color:hsl(0, 0%, 100%);
     text-align: center;
+    margin: auto;
 }
 @media(min-width: 1000px){
         .Stats{
