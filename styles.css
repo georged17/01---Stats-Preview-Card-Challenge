@@ -8,8 +8,13 @@ main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Ask Viorel what would be his preffered method of centering the card within the container */
 }
+@media(min-width: 1000px){
+    main{
+        width: 100%;
+    }
+}
+
 
 .Card {
     box-sizing: border-box;
@@ -20,8 +25,28 @@ main{
     border-radius: 9px;
     overflow: hidden;
 }
+@media(min-width: 1079px){
+    .Card{
+        min-width: 70vw;
+        position: relative;
+        
+    }
+}
+@media(min-width: 1125px){
+    .Card{
+        width: 70rem;
+        
+    }
+}
 
-.Header{
+@media(min-width: 1611px){
+    .Card{
+        width: 70rem;
+    }
+}    
+/* Nu ramane la 70rem. Continua sa creasca. Gotta figure out why. */
+
+.Mobile-Image{
     width: 100%;
     height: 20rem;
     background-image: url(./image-header-mobile.jpg);
@@ -29,12 +54,36 @@ main{
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-.Overlay{
+@media(min-width: 1000px){
+    .Mobile-Image{
+        display: none;
+    }
+}
+.Mobile-Overlay{
     width: 100%;
     height: 20rem;
     background-color: hsl(277, 64%, 61%);
     opacity: 0.4;
+}
+
+@media(min-width: 1000px){
+     .Desktop-Image{
+         width: 50%;
+         height: 100%;
+         position: absolute;
+         top: 0; right: 0;
+         background-image: url(./image-header-desktop.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+     }
+
+     .Desktop-Overlay{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(277, 64%, 61%);
+        opacity: 0.4;
+     }
 }
 
 .Titlu{
@@ -48,6 +97,15 @@ main{
     font-size: 1.6em;
     text-align: center;
     line-height: 1.3;
+}
+@media(min-width: 1000px){
+    .Titlu{
+        width: 35%;
+        text-align:left;
+        margin: 2em 0 0.2em 2.3em;
+        padding: 0;
+        font-size: 2.5em;
+    }
 }
 
 .HighlightedWord{
@@ -65,12 +123,28 @@ main{
     line-height: 2;
 
 }
+@media(min-width: 1000px){
+    .Descriere{
+        margin: 2em 0 3em 6em;
+        width: 28%;
+        text-align: left;
+        font-size: 1em;
+    }
+}
+
 
 .Stats{
      color:hsl(0, 0%, 100%);
     text-align: center;
 }
-
+@media(min-width: 1000px){
+        .Stats{
+            max-width: 50%;
+            margin: 0 0 3em 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+}
 
    .Stat-Titlu{
       font-family: 'Inter', sans-serif;
@@ -78,6 +152,16 @@ main{
       font-size: 1.6em;   
       margin: 1em 0em 1em 0em;
       color: hsl(0, 0%, 100%);
+    }
+    @media(max-width: 1124px){
+        .Stat-Titlu{
+            margin: 0 0 0 2em;
+        }
+    }
+    @media(min-width: 1125px){
+        .Stat-Titlu{
+            margin: 0 0.3em 0 2.6em;
+        }
     }
 
     .Stat-Continut{
@@ -91,7 +175,7 @@ main{
        color: hsla(0, 0%, 100%, 0.6);     
     }   
 
-
+    
 
 .Credits {
     width: 100vw;
@@ -106,3 +190,5 @@ main{
      .Credits a {
       color: hsl(228, 45%, 44%);
      }
+
+      
