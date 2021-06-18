@@ -8,10 +8,12 @@ main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 2em;
 }
 @media(min-width: 1000px){
     main{
         width: 100%;
+        padding: 0;
     }
 }
 
@@ -153,7 +155,7 @@ main{
       margin: 1em 0em 1em 0em;
       color: hsl(0, 0%, 100%);
     }
-    @media(max-width: 1124px){
+    @media(min-width: 1124px){
         .Stat-Titlu{
             margin: 0 0 0 2em;
         }
